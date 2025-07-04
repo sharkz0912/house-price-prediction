@@ -42,8 +42,8 @@ G --> H[Final Evaluation]
 
 | KPI (Hold-out Dev Set) | Value |
 |------------------------|-------------------|
-| **RMSE (log-scale)** | **28,395** |
-| Final Model | XGBoost (n_estimators=100, max_depth=6, lr=0.05) |
+| **RMSE (log-scale)** | **29,185** |
+| Final Model | XGBoost (n_estimators=200, max_depth=3, lr=0.02) |
 | Key Features (Top SHAP) | `TotalSF`, `OverallQual`, `FireplaceQu`, `GarageCars`, `RemodAge`, `LotArea`, `BsmtFinSF1`, `ExterQual`, etc. |
 
 ---
