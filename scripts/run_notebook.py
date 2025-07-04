@@ -4,7 +4,7 @@ from nbconvert.preprocessors import ExecutePreprocessor
 
 
 def run_notebook(notebook_path, save_output=True, output_path=None,
-                 kernel_name="Python 3.10.5"):
+                 kernel_name="python3"):
     if not os.path.exists(notebook_path):
         raise FileNotFoundError(f"Notebook file '{notebook_path}' not found.")
 
